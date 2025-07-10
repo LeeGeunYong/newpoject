@@ -15,6 +15,21 @@ header {
   padding: 20px;
 }
 
+/*로고*/
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/*회원가입,로그인 tool*/
+.tool{
+  text-decoration: none;
+  color: white;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -32,6 +47,7 @@ nav li {
   background-color: #f0f0f0;
   padding: 100px 20px;
   text-align: center;
+
 }
 
 /* 운동 프로그램 요금 */
@@ -51,6 +67,13 @@ nav li {
   background-color: #eee;
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid black ;
+}
+
+/*운동 글꼴 정리*/
+.workout{
+  text-decoration: none;
+  color: black;
 }
 
 /* 푸터 */
