@@ -17,7 +17,6 @@ function idChk() {
     } else{
         alert("ID입력 완료~")
         idchk.push(id.value);
-        id.value = "";
     }
 }
 
@@ -26,4 +25,8 @@ id.addEventListener("keydown",(e) => {
         idChk();
     }
 })
+
+document.getElementById("signupEnd").addEventListener("click", () =>{
     
+    alert("회원가입이 완료 되었습니다");
+})

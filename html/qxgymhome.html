@@ -13,8 +13,8 @@
     <nav>
       <ul>
         <li><a class="tool" href="/html/qxgymhome.html">홈</a></li>
-        <li>프로그램</li>
-        <li id="signup" ><a class="tool" href="/html/tool/signup.html">회원가입</a></li>
+        <li><a class="tool" href="/html/qxgymhome.html#program">프로그램</a></li>
+        <li id="signup"><a class="tool" href="/html/tool/signup.html">회원가입</a></li>
         <li id="login"><a class="tool" href="/html/tool/login.html">로그인</a></li>
       </ul>
     </nav>
@@ -28,7 +28,9 @@
     <section class="Propessor">
         <div class="trainer-info">
         <figure>
+          <a href="https://www.instagram.com/iamanjaesung/">
         <img src="/img/trainer.jpg" class="tr">
+        </a>
         <figcaption>Trainer MR.Ahn</figcaption>
         </figure>
         </div>
@@ -48,7 +50,7 @@
         </div>
     </section>
 
-    <section class="programs">
+    <section class="programs" id="program">
       <h2>운동 프로그램</h2>
       <div class="program-list">
         <div class="program"><a class="workout" href="/html/workout/chest.html"> 가슴 운동</a></div>
@@ -67,6 +69,16 @@
     <p>📞 02-1234-5678 | 📍 서울 강남구 헬스빌딩 2층</p>
     <p>&copy; 2025 QX Gym</p>
   </footer>
+
+  <script>
+    function goToSection() {
+  document.getElementById('target').scrollIntoView({ behavior: 'smooth' });
+}///
+
+document.querySelector(".tr").addEventListener("click", ()=>{
+  src
+})
+  </script>
 
 </body>
 </html>
