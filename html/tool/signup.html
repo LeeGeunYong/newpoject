@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QX 회원가입</title>
-  <link rel="stylesheet" href="/css/test.css">
+  <link rel="stylesheet" href="/css/signup.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <div><a class="logo" href="/html/qxgymhome.html">🏋️‍♀️ QX GYM</a></div>
     <nav>
       <ul>
-        <li>홈</li>
+        <li><a class="tool" href="/html/qxgymhome.html">홈</a></li>
         <li>프로그램</li>
         <li id="signup"><a class="tool" href="/html/tool/signup.html">회원가입</a></li>
         <li id="login"><a class="tool" href="/html/tool/login.html">로그인</a></li>
@@ -23,7 +23,7 @@
   </header>
 
 
-  <fieldset>
+  <fieldset class="box">
     <legend>회원가입</legend>
     <table>
       <tr>
@@ -34,15 +34,39 @@
       <tr>
         <th ><label for="pwd">비밀번호 입력:</label></th>
         <th ><input type="password" id="pwd"></th>
+        <th><button type="button">중복확인</button></th>
       </tr>
       <tr>
         <th><label for="pwdChack">비밀번호 확인</label></th>
         <td><input type="password"  id="pwdChack"></td>
       </tr>
+      <tr>
+        <th><label for="name">이름:</label></th>
+        <th><input type="text" id="name"></th>
+        
+      </tr>
+      <tr>
+        <th><label for="birthday">주민번호:</label></th>
+        <th><input type="date" id="birthday"></th>
+        
+      </tr>
+      <tr>
+        <th><label for="phonenumber">핸드폰번호:</label></th>
+        <th><input type="number" id="phonenumber"></th>
+        
+      </tr>
+      <tr>
+        <th><label for="email">이메일:</label></th>
+        <th><input type="email" id="email"></th>
+        
+      </tr>
+      
+
+
     </table>
   </fieldset>
 
-
+  
 </body>
 
 </html>
