@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 /* 전체 기본 설정 */
 body {
   font-family: 'Arial', sans-serif;
@@ -9,7 +7,6 @@ body {
 }
 
 /* 헤더 */
->>>>>>> 03c3be6e5bae0322c69928d361e58608a08464b6
 header {
   background-color: #222;
   color: white;
@@ -27,14 +24,12 @@ header {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .tool{
   text-decoration: none;
   color: white;
   
 }
 
-=======
 /*회원가입,로그인 tool*/
 .tool {
   text-decoration: none;
@@ -42,7 +37,6 @@ header {
 }
 
 
->>>>>>> 03c3be6e5bae0322c69928d361e58608a08464b6
 nav ul {
   list-style: none;
   display: flex;
@@ -51,7 +45,6 @@ nav ul {
   padding: 0;
 }
 
-<<<<<<< HEAD
 
 
 
@@ -67,7 +60,6 @@ nav ul {
 
 
 
-=======
 nav li {
   cursor: pointer;
 }
@@ -149,4 +141,3 @@ td small {
   margin-top: 4px;
   display: block;
 }
->>>>>>> 03c3be6e5bae0322c69928d361e58608a08464b6

@@ -133,3 +133,141 @@ figure {
   padding-left: 20px;
   line-height: 1.8;
 }
+
+
+/* 가슴운동 사진 , 등운동*/
+
+.arnold{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+  text-align: center;
+  width: 500px;
+  margin: 50px auto;
+  gap: 20px;
+  
+  
+ 
+}
+
+
+
+.title{  /*헤더 밑 부재목*/
+  display:flex ;
+  flex-direction: column;
+  text-align: center;
+  
+  margin-top: 5%;
+  padding-right: 10%;
+  
+
+}
+.title h3{
+  font-size: 200%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50; /* 진한 네이비 계열 */
+  
+  padding: 12px 16px;
+  margin: 20px auto;
+  width: fit-content;
+  border-radius: 8px;
+  
+}
+.athlete-spotlight{  /*아놀드설명문구*/
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+}
+
+.strecing{ /*스트레칭*/
+  display: flex; /*가로로 정렬*/
+  flex-direction: column; /**/
+   width: 20%;
+  margin: 50px auto;
+  
+  
+
+}
+.grip{ /*그립 잡는문구*/
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+
+  margin: 10px auto;
+  
+}
+
+
+
+
+.grip figure{ /*그립클래스 첫번째 피규어 자식선택*/
+  padding-bottom: 20%;
+
+}
+
+.grip figure:nth-of-type(3) img {/*그립클래스 에 피큐거 에 3번째 img 선택*/
+  height: 400px;
+}
+
+
+.BenchPress{ /*벤치프레스 이미지 자세 설명*/
+  display: flex; /*가로로 정렬*/
+  flex-direction: column; /**/
+   width: 30%;
+  margin: 50px auto;
+
+}
+
+.BenchPresslink{ /*벤치 프레스 동영상 밑 글*/
+  display: flex; /*가로로 정렬*/
+  flex-direction: column; /**/
+  width: 30%;
+  margin: 50px auto;
+  
+
+}
+
+
+.theend { /*마무리말 배경밑 위치*/
+  background-color: #f9f9f9;
+  border-top: 2px solid #0077cc;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 40px;
+}
+
+.theend .highlight {/*마무리 글 포인트*/
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.point{
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.LatPulldown{
+   display: flex; /*가로로 정렬*/
+  flex-direction: column; /**/
+   width: 30%;
+  margin: 50px auto;
+
+
+}
+.LatPulldownPresslink{
+  display: flex; /*가로로 정렬*/
+  flex-direction: column; /**/
+  width: 30%;
+  margin: 50px auto;
+  
+
+}
+
