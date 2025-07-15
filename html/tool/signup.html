@@ -15,14 +15,29 @@
     <nav>
       <ul>
         <li><a class="tool" href="/html/qxgymhome.html">홈</a></li>
+<<<<<<< HEAD
         <li>프로그램</li>
+=======
+        <li><a class="tool" href="/html/qxgymhome.html#program">프로그램</a></li>
+>>>>>>> 03c3be6e5bae0322c69928d361e58608a08464b6
         <li id="signup"><a class="tool" href="/html/tool/signup.html">회원가입</a></li>
         <li id="login"><a class="tool" href="/html/tool/login.html">로그인</a></li>
       </ul>
     </nav>
   </header>
 
+  <div class="div1">
+    <fieldset class="box">
+      <legend>회원가입</legend>
+      <form action="">
+        <table>
+          <tr>
+            <th><label for="id">아이디 입력:</label></th>
+            <td><input type="text" id="id">
+              <button type="button" onclick="idChk()">중복확인</button>
+            </td>
 
+<<<<<<< HEAD
   <fieldset class="box">
     <legend>회원가입</legend>
     <table>
@@ -67,6 +82,65 @@
   </fieldset>
 
   
+=======
+          </tr>
+          <tr>
+            <th><label for="pwd">비밀번호 입력:</label></th>
+            <td><input type="password" id="pwd"></td>
+          </tr>
+          <tr>
+            <th><label for="pwdChack">비밀번호 재확인</label></th>
+            <td><input type="password" id="pwdChack">
+              <br>
+              <small>8~16자 영문 대,소문자, 숫자, 특수기호를 사용하세요</small>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="name">이름:</label></th>
+            <td><input type="text" id="name"></td>
+
+          </tr>
+          <tr>
+            <th><label for="birthday">주민번호:</label></th>
+            <td><input type="text" id="birthday" maxlength="6">
+              <label>-</label>
+              <input type="password" name="jumin2" id="jumin2" maxlength="1" />******
+            </td>
+
+          </tr>
+          <tr>
+            <th><label for="phonenumber">핸드폰번호:</label></th>
+            <td><input type="text" id="phonenumber"></td>
+
+          </tr>
+          <tr>
+            <th><label for="email">이메일:</label></th>
+            <td><input type="email" id="email"></td>
+          </tr>
+
+
+
+        </table>
+        <div id="div2">
+        <button id="signupEnd" type="button" >가입완료</button>
+        </div>
+      </form>
+    </fieldset>
+  </div>
+
+  <section class="pricing">
+    <h2>이용 요금</h2>
+    <p>1개월: 70,000원 | 3개월: 180,000원 | 6개월: 330,000원 | KH정보교육원 학생 혜택(PT 10회 무료)</p>
+  </section>
+  </main>
+
+  <footer>
+    <p>📞 02-1234-5678 | 📍 서울 강남구 헬스빌딩 2층</p>
+    <p>&copy; 2025 QX Gym</p>
+  </footer>
+
+  <script src="/js/tool/signup.js"></script>
+>>>>>>> 03c3be6e5bae0322c69928d361e58608a08464b6
 </body>
 
 </html>

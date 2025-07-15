@@ -59,7 +59,7 @@ nav li {
 
 /* 운동 프로그램 요금 */
 .programs, .pricing {
-  padding: 40px 20px;
+  padding: 40px 20px; 
   text-align: center;
 }
 
@@ -75,6 +75,7 @@ nav li {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid black ;
+  box-shadow: 0 4px 15px gray;
 }
 
 /*운동 글꼴 정리*/
@@ -110,6 +111,7 @@ figure {
   background-color: rgb(187, 187, 187);
   gap: 40px;
   padding: 40px;
+  box-shadow: 0 4px 15px gray;
 }
 
 .trainer-info figure {
@@ -130,15 +132,4 @@ figure {
   margin-top: 10px;
   padding-left: 20px;
   line-height: 1.8;
-}
-
-fieldset{
-  width: 500px;
-  padding: auto;
-  margin: auto;
-  line-height: 20px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: top;
-
 }

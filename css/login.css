@@ -45,7 +45,7 @@ main {
   width: 500px;
   height: 500px;
   line-height: 100px;
-  margin-top: ;
+  margin-top: 20px;
   margin: 200px auto;
   border: 1px solid black;
   display: flex;
@@ -63,7 +63,7 @@ main {
 }
 
 .login:hover{
-  cursor: pointer;   
+  cursor: pointer;
 }
 
 .qxlogin{
