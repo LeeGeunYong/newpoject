@@ -26,7 +26,7 @@ id.addEventListener("keydown",(e) => {
     }
 })
 
-document.getElementById("signupEnd").addEventListener("click", () =>{
-    
+document.getElementById("signupEnd").addEventListener("click", () =>{    
     alert("회원가입이 완료 되었습니다");
-})
+     location.href="/html/qxgymhomelogout.html";
+});
